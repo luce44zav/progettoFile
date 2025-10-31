@@ -13,7 +13,7 @@ namespace StreamReader_Writer
         {
             Console.WriteLine("Inserisci il path");
             string path = Console.ReadLine();
-
+            //commento di prova
             Writer w = new Writer(path);
 
             w.ScriviFile();
